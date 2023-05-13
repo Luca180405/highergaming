@@ -6,6 +6,9 @@ import HomePageGraphic from "@/assets/HomePageGraphic.png";
 import SponsorRedBull from "@/assets/SponsorRedBull.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
+import SponsorAMD from "@/assets/SponsorAMD.png";
+import SponsorElgato from "@/assets/SponsorElgato.png";
+import SponsorSoardogg from "@/assets/SponsorSoardogg.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 
@@ -44,9 +47,7 @@ const Home = ({ setSelectedPage }: Props) => {
             </div>
 
             <p className="mt-8 text-sm">
-              Unrivaled Gym. Unparalleled Training Fitness Classes. World Class
-              Studios to get the Body Shapes That you Dream of.. Get Your Dream
-              Body Now.
+            Unleash Your Gaming Potential. Rise Above the Rest. Forge Unrivaled Skills. Embrace Unparalleled Victory. Join Our Elite Esports Team and Conquer the Gaming Realm like Never Before!
             </p>
           </motion.div>
 
@@ -91,7 +92,9 @@ const Home = ({ setSelectedPage }: Props) => {
             <div className="flex w-3/5 items-center justify-between gap-8">
               <img alt="redbull-sponsor" src={SponsorRedBull} />
               <img alt="forbes-sponsor" src={SponsorForbes} />
-              <img alt="fortune-sponsor" src={SponsorFortune} />
+              <img alt="amd-sponsor" src={SponsorAMD} height={126} width={126}/>
+              <img src={SponsorElgato} alt="elgato-sponsor" height={126} width={126}/>
+              <img alt="soardogg-sponsor" src={SponsorSoardogg} height={130} width={130}/>
             </div>
           </div>
         </div>
