@@ -47,7 +47,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
-                  <a href="https://www.soardogg.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.soardogg.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary-300">
   Shop
 </a>
 
@@ -97,7 +97,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
-            <a href="https://www.soardogg.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.soardogg.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary-300">
   Shop
 </a>
 
