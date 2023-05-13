@@ -47,11 +47,10 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
-                  <Link
-                    page="Contact Us"
-                    selectedPage={selectedPage}
-                    setSelectedPage={setSelectedPage}
-                  />
+                  <a href="https://www.soardogg.com" target="_blank" rel="noopener noreferrer">
+  Shop
+</a>
+
                 </div>
                 <div className={`${flexBetween} gap-8`}>
                   <ActionButton setSelectedPage={setSelectedPage}>
@@ -98,11 +97,10 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
-            <Link
-              page="Contact Us"
-              selectedPage={selectedPage}
-              setSelectedPage={setSelectedPage}
-            />
+            <a href="https://www.soardogg.com" target="_blank" rel="noopener noreferrer">
+  Shop
+</a>
+
           </div>
         </div>
       )}
